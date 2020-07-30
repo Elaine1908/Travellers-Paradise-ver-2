@@ -1,0 +1,38 @@
+.friend{margin: 10px 10px 10px 10px;padding-left:20px; padding-top:15px;height:30px;background-color: #eeeeee;font-family: Consolas,sans-serif;}
+
+.search{width:250px;margin-bottom:10px;padding-left:20px; padding-top:15px;height:30px;background-color: #eeeeee;font-family: Consolas,sans-serif;}
+.msg{margin-top:100px;width:250px;padding-left:20px; padding-top:15px;height:30px;background-color: #eeeeee;font-family: Consolas,sans-serif;}
+
+input{width:180px;margin-left: 10px;height: 30px;}
+input:focus{border-color: #a2baff
+}
+
+button a{text-decoration: none;color:floralwhite;}
+
+button{font-family: Consolas, sans-serif;cursor:pointer;color:floralwhite;background-color: darkslateblue;opacity: 0.8;width: 50px;margin-left:20px;height:30px;text-align: center;border-style: none;border-radius: 0.5em}
+button:hover{background-color: floralwhite;color: darkslateblue}
+button a:hover{background-color: floralwhite;color: darkslateblue}
+
+.message a{text-decoration: none;color:floralwhite;}
+
+button.message{font-family: Consolas, sans-serif;cursor:pointer;color:floralwhite;background-color: #c80d19;opacity: 0.8;width: 100px;margin:10px 20px 20px 10px;height:30px;text-align: center;border-style: none;border-radius: 0.5em}
+button.message a:hover{background-color: floralwhite;color: #c80d19}
+
+.m{font-family: Consolas, sans-serif;padding-top: 5px}
+
+p{font-family: Consolas, sans-serif;margin: 10px 5px 10px 10px}
+
+.left{float:left;margin:10px 10px 10px 20px;}
+.right{margin:10px 20px 10px 310px;}
+
+
+
+table{text-align: left;vertical-align:middle;border:1px solid silver;margin: auto}
+td{width: 190px;border:0.5px dashed silver;cursor: pointer;line-height: 20px;padding: 10px;font-family: Consolas, sans-serif, sans-serif;color:indigo}
+th{font-family: Consolas, sans-serif;background-color: lightgray;padding: 10px;opacity: 0.6}
+
+table a{
+    text-decoration:none;
+}
+footer {position:absolute;bottom:0;background-color: darkslateblue;height:40px;color:gainsboro;font-family: "Century Gothic", sans-serif;bottom:0;text-align: center;font-size: small;width: 100%}
+.copyright{bottom: -15px;position: relative}

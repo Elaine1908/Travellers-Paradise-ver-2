@@ -1,0 +1,36 @@
+.photo{margin: 10px 10px 10px 10px;padding-left:20px; padding-top:15px;height:30px;background-color: #eeeeee;font-family: Consolas,sans-serif;}
+
+.image{position: relative}
+.box{padding: 10px;}
+
+h4{margin-bottom: 20px;font-weight: bold}
+.words{padding:20px;text-overflow: ellipsis;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:3;
+    font-family: Consolas, sans-serif;word-break: break-all;height: 100px;line-height: 25px;margin-left: 220px;}
+img{position: absolute;height:170px;width:200px}
+a{text-decoration: none}
+
+.delete{margin-left: 10px}
+.delete{font-family: Consolas, sans-serif;cursor:pointer;color:darkred;background-color: burlywood;opacity: 0.8;width: 80px;height:30px;text-align: center;border-style: none;border-radius: 0.5em}
+.delete:hover{color: burlywood;background-color: darkred}
+.modify{margin-left: 235px}
+.modify{font-family: Consolas, sans-serif;cursor:pointer;color:darkslateblue;background-color: burlywood;opacity: 0.8;width: 80px;height:30px;text-align: center;border-style: none;border-radius: 0.5em}
+.modify:hover{color: burlywood;background-color: darkslateblue}
+.feedback{padding: 30px;text-align: center;font-family: Consolas, sans-serif;opacity: 0.8}
+
+
+hr {
+    width: 90%;
+    margin: 0 5%;
+    border-width:0;
+    height: 1px;
+    color:darkslateblue;
+    background-color:darkslateblue;
+}
+
+
+
+.page{text-align: center;margin-bottom: 10px;}
+.active{color: lightgray}
+
+footer {position:absolute;bottom:0;background-color: darkslateblue;height:40px;color:gainsboro;font-family: "Century Gothic", sans-serif;margin-bottom:0px;text-align: center;font-size: small;width: 100%}
+.copyright{bottom: -15px;position: relative}

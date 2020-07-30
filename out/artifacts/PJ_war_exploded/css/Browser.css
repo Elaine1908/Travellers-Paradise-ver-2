@@ -1,0 +1,42 @@
+.aside{margin-top:10px;padding-left: 10px;padding-right: 10px;float:left}
+table{text-align: left;vertical-align:middle;margin-bottom:10px;border:1px solid silver;}
+td{width: 190px;border:0.5px dashed silver;cursor: pointer;line-height: 20px;padding: 10px;font-family: Consolas, sans-serif, sans-serif;color:indigo}
+th{font-family: Consolas, sans-serif;background-color: lightgray;padding: 10px;opacity: 0.6}
+.search{cursor:pointer;font-family: Consolas, sans-serif;padding:5px;width:200px;background-color: lightgray;opacity: 0.6;margin-bottom: 10px}
+.fa-search{padding: 5px}
+input{line-height: 20px}
+
+.f-box{margin: 10px 20px 10px 250px;font-family: Consolas,sans-serif;}
+.filter{padding-left:20px; padding-top:15px;height:35px;background-color: lightgray;}
+
+form{font-family: Consolas, sans-serif}
+button{cursor:pointer;font-family: Consolas, sans-serif;background-color: lightgray;opacity: 0.6;width: 90px;padding: 0.5em}
+#title{width: 30px;padding: 0px;}
+select {font-family: Consolas, sans-serif;background-color: #ffffff;border: lightgray solid 1px;color: #000000;padding: 0.5em;margin: 0.5em 0;}
+.feedback{padding: 30px;text-align: center;font-family: Consolas, sans-serif}
+
+.page{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+.page a{
+    text-decoration:none;
+    color: darkslategrey;
+}
+.page a:hover{
+    color: blueviolet;
+}
+
+table a{
+    text-decoration:none;
+}
+
+.images{padding-top:5px;border:1px silver solid;}
+img{margin: 10px;width: 170px;height: 170px;box-shadow: 5px 5px darkgrey;}
+
+.page{text-align: center}
+.active{color: lightgray}
+
+footer {clear: both;background-color: darkslateblue;height:40px;color:gainsboro;font-family: "Century Gothic", sans-serif;bottom:0;text-align: center;font-size: small;width: 100%}
+.copyright{bottom: -15px;position: relative}

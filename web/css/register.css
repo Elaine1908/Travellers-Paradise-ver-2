@@ -1,0 +1,18 @@
+body{background-color: #eeeeee;}
+.sign{height: 50px;text-align: center;margin-top: 20px}
+
+h4{margin: 10px;font-weight: bold}
+
+
+
+.input{font-size:small;min-width:150px;font-weight:bold;padding: 20px 10px;margin-left: 500px;margin-right: 500px;margin-top:70px;border: #56707f 1px solid;border-radius: 0.5em}
+input{margin-top: 10px;width: 80%;height: 25px}
+button{margin-top:10px;cursor:pointer;width: 80%;text-align: center;background-color:beige;color: darkslateblue;border-radius: 0.3em;height: 30px;}
+
+td {font-family: "Baskerville Old Face"}
+
+mark{font-family: "Baskerville Old Face";font-size: medium;}
+
+#footer {position:absolute;clear:both;background-color: darkslateblue;height:40px;color:gainsboro;font-family: "Century Gothic", sans-serif;bottom:0;text-align: center;font-size: small;width: 100%}
+.copyright{bottom: -15px;position: relative}
+

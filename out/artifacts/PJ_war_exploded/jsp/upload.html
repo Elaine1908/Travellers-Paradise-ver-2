@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" >
+    <link href="css/upload.css" rel="stylesheet" type="text/css" >
+    <link href="css/nav.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/upload.js"></script>
+</head>
+<body>
+
+<div id="nav">
+    <div class="div-left">
+        <ul>
+            <li><a href="Home.html"  >Home</a></li>
+            <li><a href="Browser.html">Browse</a></li>
+            <li><a href="Search.html">Search</a></li>
+            <li><a href="#" class="user">My account</a>
+                <ul class="dropdown">
+                    <li><a href="upload.html" style="color:lightgray"><i class="fa fa-upload fa-fw" aria-hidden="true"></i>upload</a></li>
+                    <li><a href="photo.html"><i class="fa fa-photo fa-fw" aria-hidden="true"></i>my photos</a></li>
+                    <li><a href="favorites.html"><i class="fa fa-heart fa-fw" aria-hidden="true"></i>my favor</a></li>
+                    <li><a href="../index.html"><i class="fa fa-sign-in fa-fw" aria-hidden="true"></i>log in</a></li>
+                </ul>
+            </li>
+        </ul><!--行内元素百搭标记-->
+    </div>
+</div>
+
+<div class="upload">UPLOAD</div>
+
+<div id="preview" style="width:320px;height:200px;"></div><!--用来放预览图片的DIV-->
+<input class="img" type="file" onchange="previewImage(this,320,200)" accept="image/*" /><!--一旦用户选择了图片文件，则触发上方的previewImage函数-->
+
+
+<div class="input">
+    <form action="photo.html">
+        <p>Title of the pic:<br>
+            <input type="text" name="title" class="text">
+        </p>
+        <p>Description:<br>
+            <textarea type="text" name="description" content="aaa" required></textarea>
+        </p>
+        <p>Country:<br>
+            <input type="text" name="country" class="text">
+        </p>
+        <p>City:<br>
+            <input type="text" name="city" class="text">
+        </p>
+
+
+        <select name="country" onchange="e()">
+            <option value="0">----country---</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+
+        </select>
+        <p><button name="Submit" onclick="e()">Submit</button> </p>
+
+    </form>
+
+    <script>
+    function e(){
+        let index = document.getElementsByName("country").options[0].selected;
+        if(index){alert("no selection")}
+    }
+
+    </script>
+</div>
+
+<footer><span class="copyright">Copyright © 2020 Elaine1908 All Right Reserved ICP:19302010075</span></footer>
+</body>
+</html>

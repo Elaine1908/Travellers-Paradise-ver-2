@@ -1,0 +1,17 @@
+.upload{margin: 10px 10px 10px 20px;padding-left:20px; padding-top:15px;height:30px;background-color: #eeeeee;font-family: Consolas,sans-serif;}
+
+.input{min-width:200px;font-size:small;font-weight:bold;padding:10px;margin:20px 450px 30px 450px;}
+
+.img{margin-left: 100px;margin-top: 10px;}
+.border{border: #56707f 1px solid;border-radius: 0.5em;padding: 10px;margin: 10px;width: 400px}
+.text{margin-top: 10px;margin-bottom:10px;width: 90%;height: 15px;opacity: 0.7}
+textarea{margin-top: 10px;margin-bottom:10px;width: 90%;height: 35px}
+button{margin-top:10px;cursor:pointer;width: 80%;text-align: center;background-color:beige;color: darkslateblue;border-radius: 0.5em;height: 30px;}
+select {font-family: Consolas, sans-serif;background-color: #ffffff;border: lightgray solid 1px;color: #000000;padding: 0.5em;margin: 0.5em 0;}
+p{font-family: Consolas, sans-serif;}
+#preview{margin-left: 480px;margin-right: 450px;}
+
+footer {clear:both;background-color: darkslateblue;height:40px;color:gainsboro;font-family: "Century Gothic", sans-serif;bottom:0;text-align: center;font-size: small;width: 100%}
+.copyright{bottom: -15px;position: relative}
+select{width: 90%}
+#imghead {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);}

@@ -1,0 +1,23 @@
+.details{font-family:Consolas, sans-serif;padding-left:35px; padding-top:5px;height:20px;background-color: #eeeeee}
+.pic{margin-top:10px;font-family:Consolas, sans-serif;padding-top:10px;width:700px;text-align: center;height:35px;background-color: #eeeeee}
+.photogragher{font-family:Consolas, sans-serif;font-size: small}
+
+img{width:700px;height: 420px;}
+
+.left{float: left;margin-right: 40px;}
+
+
+
+.right{margin: 0px 20px 0px 370px;padding-left: 20px;padding-bottom: 10px;}
+
+table{text-align: left;vertical-align:middle;margin-bottom:10px;border:1px solid silver;}
+td{width: 450px;border:0.5px dashed silver;line-height: 20px;padding: 10px;font-family: Consolas, sans-serif, sans-serif;color:indigo}
+th{font-family: Consolas, sans-serif;background-color: #eeeeee;padding: 10px;opacity: 0.6}
+
+.num{font-weight: bold;font-size: x-large;font-family: Consolas, sans-serif;color: darkred}
+
+button{margin-left:760px;margin-bottom:20px;cursor:pointer;color:floralwhite;padding:10px;background-color: darkred;opacity: 0.8;width: 450px;height:50px;text-align: center;border-style: none;border-radius: 0.5em}
+button:hover{background-color: floralwhite;color: darkred}
+
+footer {clear:both;background-color: darkslateblue;height:40px;color:gainsboro;font-family: "Century Gothic", sans-serif;bottom:0;text-align: center;font-size: small;width: 100%}
+.copyright{bottom: -15px;position: relative}

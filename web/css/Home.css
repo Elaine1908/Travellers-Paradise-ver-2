@@ -1,0 +1,114 @@
+#lbt {
+    max-width: 100%;/*设置轮播区域的宽高，即父级盒子宽高*/
+    height: 450px;
+    overflow: hidden;/*设置超出部分隐藏，因为photo盒子超出父级盒子blt的宽度*/
+}
+
+#photo {
+    width: 2900px;/*每张图片宽度400px，一共放3张图片，所以photo盒子宽度为400*3=1200px*/
+    animation: move 10s ease-out infinite;/*设置动画名称叫move，完成此动画需要时长5s,动画类型ease-out即以慢速结束的过渡效果，动画播放次数infinite即无限次*/
+}
+
+#photo > img {/*子选择器，指定photo里的img元素*/
+    float: left;/*所有的图片都向同一个方向浮动*/
+    width: 580px;/*设置所有的图片具有同样的宽高，因为他们共用一个div盒子，在这个盒子里进行轮换展示*/
+    height: 450px;
+}
+
+@keyframes move {/*以百分比来规定改变发生的时间，0% 是动画的开始时间，100% 动画的结束时间。*/
+    0%, 15% {
+        margin-left: 0;
+    }
+    30%, 45% {
+        margin-left: -580px;
+    }
+    55%, 75% {
+        margin-left: -1060px;
+    }
+    80%, 100% {
+        margin-left:0;
+    }
+}
+
+
+div.welcome{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: "Ink Free", sans-serif;
+    color: indigo;
+    background-color: lightyellow;
+    opacity: 0.5;
+    width: 100%;
+    height: 50px;
+}
+
+div.welcome:hover{
+    background-color: indigo;
+    color: lightyellow;
+}
+.welcome a{text-decoration: none;color: indigo;}
+.welcome a:hover{color: lightyellow}
+
+div.collection{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h4{padding-bottom: 10px}
+.description{padding-top: 20px;text-align: justify}
+
+div.images{
+    width:23%;
+    height: 300px;
+    padding: 25px 25px 25px 25px;
+    margin-left:25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    background-color: floralwhite;
+    /*box-shadow:10px 10px 10px #999999;图片阴影的设置*/
+    border: 1px dashed black;
+    display: inline-block;
+    font-family: "Bookman Old Style", sans-serif;
+}
+
+.images img{
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+    box-shadow: 5px 5px darkgrey;
+}
+
+.images p{
+    line-height: 20px;
+    white-space: nowrap;
+    overflow:hidden;
+}
+
+/*     height: 50px;
+    text-overflow:ellipsis; */
+
+.fa-refresh{width:20px;height:20px;position: fixed;top:520px;left:1210px;padding:5px;background-color: blanchedalmond;opacity: 0.4;cursor: pointer}
+.fa-hand-pointer-o{width:20px;height:20px;position: fixed;top:470px;left:1210px;padding:5px;background-color: blanchedalmond;opacity: 0.4;cursor: pointer}
+
+footer {background-color: darkslateblue;height:50px;color:gainsboro;
+    font-family: "Century Gothic", sans-serif;bottom:0;text-align: center;font-size: small;width: 100%}
+footer ul li{ float:left; line-height:20px; position:relative;padding: 5px;margin-left: 40px}
+.arthur{float: right}
+.copyright{bottom: -20px;position: relative}
+/*.user{float: right!important;}
+
+.div-right {
+    margin-right: 20px;
+    margin-top: 0px;
+    padding-right: 20px;
+    float: right;
+    font-weight: bold;
+    position:absolute;
+}
+.div-right ul li{line-height:20px; text-align:left;width: 120px;height: 30px}
+.div-right a:hover{ background:antiquewhite}
+.div-right a{text-decoration:none; color:darkgoldenrod; display:block;block-size: 40px;padding: 10px;}
+.div-right ul li a:hover{ background-color: cornsilk;height: 15px}*/

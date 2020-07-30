@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Browser</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" >
+    <link href="css/Browser.css" rel="stylesheet" type="text/css" >
+    <link href="css/nav.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="js/select.js"></script>
+</head>
+<body>
+
+<div id="nav">
+<div class="div-left">
+    <ul>
+        <li><a href="Home.html"  >Home</a></li>
+        <li><a href="Browser.html" style="color:lightgray">Browse</a></li>
+        <li><a href="Search.html">Search</a></li>
+        <li><a href="#" class="user">My account</a>
+            <ul class="dropdown">
+                <li><a href="upload.html"><i class="fa fa-upload fa-fw" aria-hidden="true"></i>upload</a></li>
+                <li><a href="photo.html"><i class="fa fa-photo fa-fw" aria-hidden="true"></i>my photos</a></li>
+                <li><a href="favorites.html"><i class="fa fa-heart fa-fw" aria-hidden="true"></i>my favor</a></li>
+                <li><a href="../index.html"><i class="fa fa-sign-in fa-fw" aria-hidden="true"></i>log in</a></li>
+            </ul>
+        </li>
+    </ul><!--行内元素百搭标记-->
+</div>
+</div>
+
+<div class="aside">
+
+    <ul class="search">
+        <li>SEARCH BY TITLE</li>
+        <li><input type="text" name="image name"><i class="fa fa-search fa-fw" aria-hidden="true" onclick="alert()"></i></li>
+    </ul>
+
+    <table class="hot country">
+        <tr class="th"><th>HOT COUNTRY</th></tr>
+        <tr><td onclick="alert()">Britain</td></tr>
+        <tr><td onclick="alert()">France</td></tr>
+        <tr><td onclick="alert()">Italy</td></tr>
+        <tr><td onclick="alert()">Spain</td></tr>
+    </table>
+
+    <table class="hot city">
+        <tr class="th"><th>HOT CITY</th></tr>
+        <tr><td onclick="alert()">London</td></tr>
+        <tr><td onclick="alert()">Paris</td></tr>
+        <tr><td onclick="alert()">Rome</td></tr>
+        <tr><td onclick="alert()">Barcelona</td></tr>
+    </table>
+
+    <table class="hot content">
+        <tr class="th"><th>HOT CONTENT</th></tr>
+        <tr><td onclick="alert()">City</td></tr>
+        <tr><td onclick="alert()">People</td></tr>
+        <tr><td onclick="alert()">Scenery</td></tr>
+        <tr><td onclick="alert()">Wonder</td></tr>
+    </table>
+</div>
+
+<div class="f-box">
+    <div class="filter">FILTER</div>
+    <form action="" method="get" name="form2">
+    <select name="content" class="content">
+        <option selected>---select a content---</option>
+        <option>City</option>
+        <option>People</option>
+        <option>Scenery</option>
+        <option>Wonder</option>
+    </select>
+
+    <select name="country" class="country" onchange="set_city(this,this.form.city)">
+        <option selected>---select a country---</option>
+        <option>China</option>
+        <option>Japan</option>
+        <option>Italy</option>
+        <option>America</option>
+    </select>
+
+    <select name="city">
+        <option>---select a city---</option>
+    </select>
+
+    <button class="filterbutton" onclick="alert()">Filter</button>
+    </form>
+
+
+    <div class="images">
+        <a href="details.html"><img src="../images/browser/1.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/2.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/3.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/4.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/5.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/6.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/7.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/8.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/9.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/10.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/11.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/12.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/13.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/14.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/15.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/16.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/17.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/18.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/19.jpg" alt="image"></a>
+        <a href="details.html"><img src="../images/browser/20.jpg" alt="image"></a>
+
+        <span class="page">< <span class="active">1</span> 2 3 4 5 6 ... 9 ></span>
+    </div>
+</div>
+
+<footer><span class="copyright">Copyright © 2020 Elaine1908 All Right Reserved ICP:19302010075</span></footer>
+</body>
+</html>

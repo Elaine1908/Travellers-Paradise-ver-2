@@ -1,0 +1,81 @@
+.search{width:250px;margin-bottom:10px;padding-left:20px; padding-top:15px;height:30px;background-color: #eeeeee;font-family: Consolas,sans-serif;}
+.result{width:900px;padding-left:20px; padding-top:15px;height:30px;background-color: #eeeeee;font-family: Consolas,sans-serif;}
+
+.searchbox{float:left;margin:10px 10px 10px 20px;}
+.resultbox{margin:10px 20px 10px 310px;}
+
+.input{font-family: Consolas,sans-serif;padding-left: 20px;}
+.feedback{padding: 30px;text-align: center;font-family: Consolas, sans-serif}
+
+button{margin-top:10px;font-family: Consolas, sans-serif;cursor:pointer;color:floralwhite;background-color: darkslateblue;opacity: 0.8;width: 200px;height:40px;text-align: center;border-style: none;border-radius: 0.5em}
+button:hover{background-color: floralwhite;color: darkslateblue}
+
+mark{background-color: bisque;}
+
+.title  {
+    padding: 0.5em;
+    margin: 10px 0;
+    width: 200px;
+    background-color:whitesmoke;
+    border: #56707f solid 1px;
+    border-radius: 3px;
+    color: #000000
+}
+
+.description{
+    padding: 0.5em;
+    margin: 10px 0 10px 0;
+    width: 200px;
+    height: 250px;
+    background-color:whitesmoke;
+    border: #56707f solid 1px;
+    border-radius: 3px;
+    color: #000000
+}
+
+#input{
+    padding: 0.5em;
+    margin: 10px 0;
+    width: 200px;
+    height: 30px;
+    background-color:whitesmoke;
+    border: #56707f solid 1px;
+    border-radius: 3px;
+    color: #000000}
+
+input[type="radio"] {width: 2em;background-color: #eeeeee}
+input[type="button"],input[type="radio"], select:hover {cursor: pointer;}
+
+select {margin-bottom:10px;width: 200px;font-family: Consolas, sans-serif;background-color: #ffffff;border: lightgray solid 1px;color: #000000;padding: 0.5em;margin: 0.5em 0;}
+
+.image{position: relative}
+.box{padding: 10px;height: 150px;}
+
+h4{margin-bottom: 20px;font-weight: bold}
+.words{padding-top:20px;padding-left:20px;padding-right:20px;text-overflow: ellipsis;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:3;
+    font-family: Consolas, sans-serif;word-break: break-all;height: 120px;line-height: 25px;margin-left: 220px;}
+img{position: absolute;height:150px;width:200px}
+
+
+.page{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+.page a{
+    text-decoration:none;
+    color: darkslategrey;
+    margin-left: 5px;
+}
+.page a:hover{
+    color: blueviolet;
+}
+
+.page{text-align: center}
+.active{color: lightgray}
+
+footer {bottom:0;position:relative;clear:both;background-color: darkslateblue;height:40px;color:gainsboro;font-family: "Century Gothic", sans-serif;bottom:0;text-align: center;font-size: small;width: 100%}
+
+.copyright{bottom: -15px;position: relative}
+

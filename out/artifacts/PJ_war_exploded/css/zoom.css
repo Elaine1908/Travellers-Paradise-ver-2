@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 700px;
+    height: 420px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.big {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 170px;
+    left: 700px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    display: none;
+    z-index: 3;
+}
+
+/*mask的中文是：遮罩*/
+.mask {
+    width: 175px;
+    height: 175px;
+    background: rgba(255, 255, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: move;
+    display: none;
+}
+
+.small {
+    position: relative;
+}
+
+img {
+    vertical-align: top;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- CSS部分 -->
+    <style media="screen">
+        li {
+            list-style: none;
+        }
+        .side_open {
+            position: fixed;
+            top: 20%;
+            right: 0;
+            width: 218px;
+            height: 574px;
+            background-color: rgba(214, 215, 255, 0.33);
+        }
+        .side_btn {
+            position: absolute;
+            top: 20px;
+            left: -30px;
+            width: 30px;
+            height: 140px;
+            background-color: rgba(254, 253, 255, 0.48);
+        }
+        .side_btn li {
+            width: 30px;
+            height: 140px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #5c3fb9;
+            display: none;
+        }
+        .side_btn li:first-child {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<!-- HTML部分 -->
+<div class="side_open" id="side_open">
+    <a href="javascript:void(0);" class="side_btn" id="side_btn">
+        <ul>
+            <li>close</li>
+            <li>my footprints</li>
+        </ul>
+    </a>
+    <div>aaaaa</div>
+    <div>bbbbb</div>
+
+</div>
+<!-- JS部分 -->
+<script src="../jquery-3.5.1.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function(){
+        var isHiden = true; /*控制切换菜单*/
+        $('#side_btn').click(function(){
+            if(isHiden){
+                $('#side_open').animate({right:'-=217px'});//菜单块向右移动
+            }else{
+                $('#side_open').animate({right:'+=217px'}); //菜单块向左移动
+            }
+            isHiden = !isHiden;
+        });
+// isHiden只是返回部件的隐藏属性，并不能表示部件当前的真实状态。比如A部件有个子部件B，而A处于隐藏状态，子部件B必然也不可见，但子部件B本身的isHiden还是为false。
+        // 信号量
+        var index = 0;
+        // 更改按钮文字の点击事件
+        $('#side_btn').click(function(){
+            //防流氓点击
+            if($('#side_btn ul li').is(":animated")){
+                return;
+            }
+            // 老文字淡出
+            $('#side_btn ul li').eq(index).fadeOut(0,function(){
+                // 信号量
+                index --;
+                if(index < 0){
+                    index = 1;
+                }
+                // 新文字淡入
+                $('#side_btn ul li').eq(index).fadeIn(0);
+            });
+        });
+    });
+</script>
+</body>
+</html>
+

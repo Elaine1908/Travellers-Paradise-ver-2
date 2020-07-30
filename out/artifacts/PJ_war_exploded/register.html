@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" >
+    <link href="css/register.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="sign up">
+    <i class="fa fa-user-circle fa-5x"></i>
+    <h4>Sign up for Travellers' Paradise</h4>
+</div>
+
+<div class="input">
+    <form action="php/register.php" method="post">
+        <p>Username:<br>
+            <input type="text" name="username" id="username" required><!--no pattern-->
+        </p>
+        <p>Email:<br>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <p>Password:<br>
+            <input type="password" name="password" id="password" required>
+        </p>
+        <p>Confirm your password:<br>
+            <input type="password" name="repassword" id="repassword" required>
+        </p>
+        <p><button name="Sign in">Sign up </button> </p>
+    </form>
+</div>
+
+<footer><span class="copyright">Copyright © 2020 Elaine1908 All Right Reserved ICP:19302010075</span></footer>
+</body>
+</html>
